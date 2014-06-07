@@ -20,5 +20,5 @@ filtereddata$Time <- strptime(datetime, format=timeformat);
 
 # produce plot and output to PNG
 png("plot1.PNG");
-hist(filtereddata$Global_active_power, breaks=12, col="red", main="Global Active Power", xlab="Global active power (kilowatts)");
+hist(filtereddata$Global_active_power, breaks=12, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)");
 dev.off();
